@@ -1,0 +1,88 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.button-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.user-deatils {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+.like-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.span-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  align-items: center;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-size: cover;
+  margin: 8px;
+}
+.user-para {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 18px;
+  margin: 8px;
+}
+.user-para1 {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 12px;
+}
+.comment-para {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 12px;
+}
